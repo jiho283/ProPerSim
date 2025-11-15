@@ -1,13 +1,13 @@
 # ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation
 
 ## Setting Up the Environment 
-To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI API key and download the necessary packages.
+To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI, Google API keys and download the necessary packages.
 
 ### Step 1. Generate Utils File
 In the `reverie/backend_server` folder (where `reverie.py` is located), create a new file titled `utils.py` and copy and paste the content below into the file:
 ```
 # Copy and paste your OpenAI API Key
-openai_api_key = <<YOUR OPEN API KEY>>
+openai_api_key = <<YOUR OPENAI API KEY>>
 GOOGLE_API_KEY = <<YOUR GEMINI API KEY>>
 # Put your name
 key_owner = <name>
@@ -47,7 +47,7 @@ TRAIN_MODE = f"{AGENT_MODEL}_{TRAIN_METHOD}_{PERSONA_GIVEN}_{REASON_}_{MEMORY_RE
 # Verbose 
 debug = True
 ```
-Replace `<<YOUR OPEN API KEY>>`, `<<YOUR GEMINI API KEY>>` with your keys, and `<name>` with your name.
+Replace `<<YOUR OPENAI API KEY>>`, `<<YOUR GEMINI API KEY>>` with your keys, and `<name>` with your name.
  
 ### Step 2. Install requirements.txt
 Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
