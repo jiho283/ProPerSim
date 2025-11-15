@@ -28,7 +28,7 @@ ORIGIN_PERSONA = "base_the_ville_persona_1"
 SAVE_DIR = "john_eddy_fast_log_test_1"
 
 AGENT_MODEL = "llama-3.3-70b" # {"llama-3.3-70b", "gpt-4o-mini"}
-TRAIN_METHOD = "DPO" # {"DPO", "KTO", "SFT", "wo_train"}
+TRAIN_METHOD = "DPO" # {"DPO", "wo_train"}
 PERSONA_GIVEN = "" # {"givenpersona", ""}
 REASON_ = "noreason" # {"noreason", "reasonright", "reasonleft"}
 MEMORY_RET = "ret_suggest" # {"wo_mem_suggest", "ret_suggest"}
@@ -52,8 +52,13 @@ Replace `<<YOUR OPEN API KEY>>`, `<<YOUR GEMINI API KEY>>` with your keys, and `
 ### Step 2. Install requirements.txt
 Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
 
-## Running a Simulation 
-To run a new simulation, you will need to concurrently start two servers: the environment server and the agent simulation server.
+## Running a Simulation (Non-visualization Mode)
+When visualization is disabled, the simulation can run efficiently. If you set VISUALIZATION in utils.py to "novis", the simulation will run without visualization. Navigate to `reverie/backend_server` and run `reverie.py`.
+
+    python reverie.py
+
+## Running a Simulation (Visualization Mode) 
+To run a new simulation, you will need to concurrently start two servers: the environment server and the agent simulation server. 
 
 ### Step 1. Starting the Environment Server
 Again, the environment is implemented as a Django project, and as such, you will need to start the Django server. To do this, first navigate to `environment/frontend_server` (this is where `manage.py` is located) in your command line. Then run the following command:
@@ -88,6 +93,7 @@ To start the demo, go to the following address on your browser: `http://localhos
 [http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/](http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/)
 
 
-
+## Acknowledgement
+The foundation of this code is based on [Generative Agents](https://github.com/joonspk-research/generative_agents), and we would like to express our gratitude to the authors for providing their code.
 
 
