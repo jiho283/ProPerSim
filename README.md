@@ -1,12 +1,4 @@
-
-
-# Generative Agents: Interactive Simulacra of Human Behavior 
-
-<p align="center" width="100%">
-<img src="cover.png" alt="Smallville" style="width: 80%; min-width: 300px; display: block; margin: auto;">
-</p>
-
-This repository accompanies our research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains our core simulation module for  generative agents—computational agents that simulate believable human behaviors—and their game environment. Below, we document the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
+# ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation
 
 ## Setting Up the Environment 
 To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI API key and download the necessary packages.
@@ -15,9 +7,10 @@ To set up your environment, you will need to generate a `utils.py` file that con
 In the `reverie/backend_server` folder (where `reverie.py` is located), create a new file titled `utils.py` and copy and paste the content below into the file:
 ```
 # Copy and paste your OpenAI API Key
-openai_api_key = "<Your OpenAI API>"
+openai_api_key = <<YOUR OPEN API KEY>>
+GOOGLE_API_KEY = <<YOUR GEMINI API KEY>>
 # Put your name
-key_owner = "<Name>"
+key_owner = <name>
 
 maze_assets_loc = "../../environment/frontend_server/static_dirs/assets"
 env_matrix = f"{maze_assets_loc}/the_ville/matrix"
@@ -30,8 +23,31 @@ collision_block_id = "32125"
 
 # Verbose 
 debug = True
+
+ORIGIN_PERSONA = "base_the_ville_persona_1"
+SAVE_DIR = "john_eddy_fast_log_test_1"
+
+AGENT_MODEL = "llama-3.3-70b" # {"llama-3.3-70b", "gpt-4o-mini"}
+TRAIN_METHOD = "DPO" # {"DPO", "KTO", "SFT", "wo_train"}
+PERSONA_GIVEN = "" # {"givenpersona", ""}
+REASON_ = "noreason" # {"noreason", "reasonright", "reasonleft"}
+MEMORY_RET = "ret_suggest" # {"wo_mem_suggest", "ret_suggest"}
+RANKING = "ranking" # {"ranking", ""}
+AGENT_MEMORY_LEVEL = "AS" # {"", "A", "AS", "ASC", "AS9C1", "AS8C2", "ASCR", "ASC9R1", "ASC8R2"} A: Action, S: Suggestion, C: Score, R: Reason
+EVALUATOR = "gemini-2.0" # {"gpt-4o", "gpt-4o-mini", "gemini-2.0", "gemini-2.5", "o3-mini", "o4-mini"}
+EVALUATE_SEPERATE = "seperate" # {"all", "seperate"}
+FORCE_NOREC_RATIO = "norec0" # {"norec100", "norec70", "norec30", "norec0"}
+VISUALIZATION = "novis" # {"vis", "novis"}
+REPLAY_BUFFER = "equally200" # {"equally200", "equally400", "halftoday"}
+REC_REVISION = "recnorev" # {"recrev", "recnorev"}
+MMLU_EVAL = "" # {"mmlueval", ""}
+
+TRAIN_MODE = f"{AGENT_MODEL}_{TRAIN_METHOD}_{PERSONA_GIVEN}_{REASON_}_{MEMORY_RET}_{RANKING}_{AGENT_MEMORY_LEVEL}_{EVALUATOR}_{EVALUATE_SEPERATE}_{FORCE_NOREC_RATIO}_{VISUALIZATION}_{REPLAY_BUFFER}_{REC_REVISION}_{MMLU_EVAL}"
+
+# Verbose 
+debug = True
 ```
-Replace `<Your OpenAI API>` with your OpenAI API key, and `<name>` with your name.
+Replace `<<YOUR OPEN API KEY>>`, `<<YOUR GEMINI API KEY>>` with your keys, and `<name>` with your name.
  
 ### Step 2. Install requirements.txt
 Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
@@ -72,22 +88,6 @@ To start the demo, go to the following address on your browser: `http://localhos
 [http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/](http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/)
 
 
-### Author and Load Agent History
-First is to initialize agents with unique history at the start of the simulation. To do this, you would want to 1) start your simulation using one of the base simulations, and 2) author and load agent history. More specifically, here are the steps:
 
-#### Step 1. Starting Up a Base Simulation 
-There are two base simulations included in the repository: `base_the_ville_n25` with 25 agents, and `base_the_ville_isabella_maria_klaus` with 3 agents. Load one of the base simulations by following the steps until step 2 above. 
-
-#### Step 2. Loading a History File 
-Then, when prompted with "Enter option: ", you should load the agent history by responding with the following command:
-
-    call -- load history the_ville/<history_file_name>.csv
-Note that you will need to replace `<history_file_name>` with the name of an existing history file. There are two history files included in the repo as examples: `agent_history_init_n25.csv` for `base_the_ville_n25` and `agent_history_init_n3.csv` for `base_the_ville_isabella_maria_klaus`. These files include semicolon-separated lists of memory records for each of the agents—loading them will insert the memory records into the agents' memory stream.
-
-#### Step 3. Further Customization 
-To customize the initialization by authoring your own history file, place your file in the following folder: `environment/frontend_server/static_dirs/assets/the_ville`. The column format for your custom history file will have to match the example history files included. Therefore, we recommend starting the process by copying and pasting the ones that are already in the repository.
-
-### Create New Base Simulations
-For a more involved customization, you will need to author your own base simulation files. The most straightforward approach would be to copy and paste an existing base simulation folder, renaming and editing it according to your requirements. This process will be simpler if you decide to keep the agent names unchanged. However, if you wish to change their names or increase the number of agents that the Smallville map can accommodate, you might need to directly edit the map using the [Tiled](https://www.mapeditor.org/) map editor.
 
 
