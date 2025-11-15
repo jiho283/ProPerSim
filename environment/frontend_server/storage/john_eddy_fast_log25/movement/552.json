@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing for bed by reviewing his to-do list for the next day, ensuring all tasks are organized and prioritized, and then heading to bed to ensure a good night's sleep (gathering his planner and pen) @ the Ville:Lin family's house:Mei and John Lin's bedroom:desk",
+      "chat": null,
+      "user_action_for_suggestion": "watching a favorite TV show or documentary, winding down from the day and relaxing before heading to bed at 11:00 PM (turning off the TV and tidying up the living room)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 23:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

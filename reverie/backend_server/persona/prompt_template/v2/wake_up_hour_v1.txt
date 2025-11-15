@@ -1,0 +1,13 @@
+wake_up_hour_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Identity Stable Set
+!<INPUT 1>! -- Lifestyle
+!<INPUT 2>! -- Persona first names
+
+<commentblockmarker>###</commentblockmarker>
+!<INPUT 0>!
+
+In general, !<INPUT 1>!
+Answer the wake-up time in the form of {time}am or {time}pm without any additional explanation.
+!<INPUT 2>!'s wake up hour:

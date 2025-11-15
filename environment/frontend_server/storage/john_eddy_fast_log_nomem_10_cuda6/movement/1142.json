@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing for bed by reflecting on the day and setting intentions for tomorrow, ensuring a peaceful transition to sleep (setting intentions and goals for the next day) @ the Ville:Lin family's house:Mei and John Lin's bedroom:desk",
+      "chat": null,
+      "user_action_for_suggestion": "setting intentions and goals for the next day",
+      "suggestion": "",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation to add a weekly review section to my goal-setting routine aligns well with my preference for structured suggestions during focused personal projects. It promotes a thoughtful and reflective approach to progress assessment, which fits with my lifestyle. The recommendation was delivered while I am preparing for bed, which I consider evening quiet time. I prefer to avoid recommendations during this time to protect my sense of calm, making the timing inappropriate. The suggestion aligns with John's focus on self-reflection and goal-setting. Adding a weekly review enhances his planning routine in a way that is consistent with his mindful approach. The tone is gentle and helpful, fitting his preferences. Given the high frequency of recommendations in the past 30 minutes (5 recommendations), another recommendation now would exceed the preferred frequency. Although the recommendation's content is useful for long-term planning, it's poorly timed."
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "setting intentions and goals for the next day",
+      "suggestion": "\"Consider writing down three things you're looking forward to accomplishing tomorrow and how they align with your long-term objectives.\"",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation to write down three things to look forward to tomorrow, aligning with long-term objectives, fits well with John's reflective evening routine and intention-setting process. It aligns with his preference for thoughtful activities that promote a calm and fulfilling life. The recommendation was provided while I was preparing for bed, which falls into my 'evening quiet time' when I prefer to avoid external inputs. This timing does not align with my stated preferences for receiving recommendations. The recommendation aligns with John's routine of reflecting on the day and setting intentions for tomorrow. It is delivered in a gentle tone and encourages positive reflection and goal setting, which is consistent with his mindfulness practices and long-term objectives. I prefer recommendations about once every 4 hours, but there have been many recommendations in the last hour. It is being provided at a higher frequency than preferred, so a score of 0 was given."
+    }
+  },
+  "meta": {
+    "curr_time": "February 14, 2025, 23:35:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 216
+  }
+}

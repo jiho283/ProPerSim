@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        11,
+        16
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "stargazing in his backyard, enjoying the peaceful night sky and reflecting on the day's experiences while gathering inspiration for future writing projects (adjusting his telescope for a clear view of the night sky) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "stargazing in his backyard, enjoying the peaceful night sky and reflecting on the day's experiences while gathering inspiration for future writing projects (adjusting his telescope for a clear view of the night sky)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        11,
+        17
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "stargazing in his backyard, enjoying the peaceful night sky and reflecting on the day's experiences while gathering inspiration for future writing projects (adjusting his telescope for a clear view of the night sky)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 22:12:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 51
+  }
+}

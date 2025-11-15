@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        5,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "sketching new design ideas for a personal project, focusing on integrating natural elements and bold colors into his home decor (sketching initial design concepts) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "sketching new design ideas for a personal project, focusing on integrating natural elements and bold colors into his home decor (reviewing inspiration photos from his walk)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 16:15:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        1,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "enjoying a quiet evening by watching a classic movie in his living room, winding down and relaxing after a fulfilling day (selecting a classic movie to watch) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "enjoying a quiet evening by watching a classic movie in his living room, winding down and relaxing after a fulfilling day (selecting a classic movie to watch)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        1,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "enjoying a quiet evening by watching a classic movie in his living room, winding down and relaxing after a fulfilling day (selecting a classic movie to watch)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:05:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 42
+  }
+}

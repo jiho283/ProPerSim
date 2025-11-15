@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "playing video games in his living room, enjoying some downtime and exploring new game strategies (playing the first level or mission) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "playing video games in his living room, enjoying some downtime and exploring new game strategies (playing the first level or mission)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        5
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "playing video games in his living room, enjoying some downtime and exploring new game strategies (playing the first level or mission)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 14:20:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 35
+  }
+}

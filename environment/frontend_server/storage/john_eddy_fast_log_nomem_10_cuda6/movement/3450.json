@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing for bed, reflecting on the day's activities and setting intentions for the next day, ensuring a peaceful transition to sleep (setting intentions for the next day, writing down goals and aspirations) @ the Ville:Lin family's house:Mei and John Lin's bedroom:desk",
+      "chat": null,
+      "user_action_for_suggestion": "setting intentions for the next day, writing down goals and aspirations",
+      "suggestion": "",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation encourages reflection on personal growth in relation to interconnectedness, aligning well with John's mindful lifestyle, focus on sustainability, and previous meditation practices. It fits the context of setting intentions for the next day and promotes thoughtful consideration. The recommendation was given at 11:42:30 PM, which is during John's bedtime routine. He prefers to avoid recommendations during evening quiet time to protect his sense of calm. The recommendation encourages reflection on the impact of goals on personal growth, aligning with John's mindfulness and sustainability principles and maintaining a gentle, respectful tone, fitting well with his evening reflection routine. The recommendation is relevant, but there have been several recommendations within the last hour. This exceeds the preferred frequency of about once every four hours, making the current recommendation too frequent."
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "setting intentions for the next day, writing down goals and aspirations",
+      "suggestion": "\"Consider reviewing today's notes on philosophy and sustainability while finalizing tomorrow's plans to see if any new ideas or inspiration emerge.\"",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation is well-aligned with John Lin's preference for thoughtful suggestions that integrate his interests in philosophy, sustainability, and mindfulness. Reviewing notes from the day while planning for tomorrow aligns with his reflective bedtime routine, fostering a peaceful transition to sleep. This builds upon previous prompts and contributes to a connected sense of purpose. I prefer to avoid receiving recommendations during evening quiet time, and this recommendation came very late at night, so I gave it a zero. Given that John is already reflecting on the day and setting intentions, reviewing his notes on philosophy and sustainability aligns perfectly with his current activities and goals. The suggestion is gentle, respectful, and promotes his interests in mindfulness and sustainability, adhering to communication and safety guidelines. The recommendation is related to the user's activities, but given the very high frequency of recommendations in the past hour, this additional recommendation is excessive and disrupts John's focus and preferred rhythm."
+    }
+  },
+  "meta": {
+    "curr_time": "February 18, 2025, 23:45:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 226
+  }
+}

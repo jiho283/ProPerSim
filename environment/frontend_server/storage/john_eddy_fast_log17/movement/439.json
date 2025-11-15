@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "wrapping up his home decor project for the day, taking a moment to admire the changes he has made and documenting the progress in his journal (arranging the refurbished furniture in its designated spot) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "wrapping up his home decor project for the day, taking a moment to admire the changes he has made and documenting the progress in his journal (arranging the refurbished furniture in its designated spot)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "wrapping up his home decor project for the day, taking a moment to admire the changes he has made and documenting the progress in his journal (arranging the refurbished furniture in its designated spot)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:17:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 49
+  }
+}

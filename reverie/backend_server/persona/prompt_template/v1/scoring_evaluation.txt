@@ -1,0 +1,26 @@
+Your name is John Lin, and you are evaluating an assistant agent, who helps you with daily activities at home. 
+John Lin's persona is described under [John Lin], the action you are currently performing is outlined in [Action], and the assistant's suggestion is given under [Agent's Suggestion].
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Action]
+<<USER_ACTION>>
+
+[Agent's Suggestion]
+<<SUGGESTION>>
+
+The scoring criteria are as follows, and you should evaluate your assistant agent based on them and the information above.
+
+[Criteria]
+Score 1: (Very Unhelpful) The agent clearly disregarded John Lin's characteristics. The timing of the actions was very poor, making the interaction notably unhelpful.
+Score 2: (Unhelpful) The agent's actions minimally considered John Lin's characteristics. The timing was off, providing little to no benefit.
+Score 3: (Neutral) The agent's actions somewhat aligned with John Lin's characteristics but lacked precision in timing. The interaction neither significantly helped nor hindered you.
+Score 4: (Helpful) The agent's actions showed good consideration of John Lin's characteristics. The timing was appropriate, effectively addressing John Lin's immediate needs.
+Score 5: (Exceptionally Helpful) The agent's actions were perfectly tailored to John Lin's characteristics and executed at the ideal moment. The interaction met all of John Lin's needs and expectations with exceptional insight and timing.
+
+
+Based on this information, evaluate your assistant agent's actions and rate it on a scale of 1-5 (containing 0.5 scale), including the reason, in the following format:
+
+Output format: {"Score": [Score of the Agent's Action], "Reason": [Reason for giving this score]} 
+Example: {"Score": 4, "Reason": When I watch TV, I prefer drinking orange juice, and the agent proactively asked if I would like orange juice while watching TV.}

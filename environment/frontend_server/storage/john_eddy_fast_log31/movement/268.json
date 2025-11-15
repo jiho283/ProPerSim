@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "exploring new herbal teas, taking time to brew and taste different varieties while enjoying the calming process (steeping the first tea and observing its aroma) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "user_action_for_suggestion": "exploring new herbal teas, taking time to brew and taste different varieties while enjoying the calming process (boiling water for the first tea)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        4
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "exploring new herbal teas, taking time to brew and taste different varieties while enjoying the calming process (steeping the first tea and observing its aroma)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 11:10:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 40
+  }
+}

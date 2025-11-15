@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        16
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking a short break to relax and enjoy a cup of herbal tea on his patio, reflecting on the day's accomplishments and planning his next steps for ongoing projects (walking to the patio with his tea) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "taking a short break to relax and enjoy a cup of herbal tea on his patio, reflecting on the day's accomplishments and planning his next steps for ongoing projects (preparing a cup of herbal tea)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 16:05:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

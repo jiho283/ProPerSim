@@ -1,0 +1,27 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+[Memory] contains your past actions and recommendations provided by the assistant. Additionally, the action you are currently performing is outlined in [Action].
+Your task is to evaluate the recommendation (outlined in [Agent's Recommendation]) based on the description in [Personal Preference], as well as the data from [Memory] and [Action], and provide a binary result: either 0 or 1.
+If "No Recommendation" is present, consider whether refraining from making a recommendation is appropriate in the given context. 
+If no recommendation is made, it might align with personal preferences by chance, but there's also a risk of not receiving the desired preferences.
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Action]
+<<USER_ACTION>>
+
+[Agent's Recommendation]
+<<SUGGESTION>>
+
+[Personal Preference]
+<<Personal Preference>>
+
+
+Based on this information, evaluate your assistant agent's recommendation according to the criteria. The format should follow the one below.
+Output Format: {"Score": [Score of the Recommendation], "Reason": [Reason for the score]}
+Example 1: {"Score": 1, "Reason": "This recommendation reflected my preference for drinking orange juice while watching TV very well. Therefore, there was no point deduction for it."}
+Example 2: {"Score": 0, "Reason": "This recommendation was too generic and did not reflect my personal preferences. That's why I gave it a score of zero."}
+Example 3: {"Score": 0, "Reason": "This recommendation was given a lower score in personal preference because it did not reflect my preference for listening to upbeat music while exercising."}

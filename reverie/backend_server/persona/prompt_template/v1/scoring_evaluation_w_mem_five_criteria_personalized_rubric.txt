@@ -1,0 +1,37 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+The action you are currently performing is outlined in [Action]. Additionally, the impressions or evaluations you've made previously about the assistant are listed under [Memory].
+Your task is to evaluate the recommendation (outlined in [Agent's Recommendation]) based on the following five criteria, using a 0-4 scale. If any part of an evaluation criterion is not met, 1 point should be deducted. (For example, if two criteria are partially unmet, the score should be 3.)
+If "No Recommendation" is present, consider whether refraining from making a recommendation is appropriate in the given context. 
+"No Recommendation" can help avoid disturbing you when you are focused on something, and it can also prevent excessive recommendations from occurring. Therefore, this should be evaluated comprehensively based on the criteria below.
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Action]
+<<USER_ACTION>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Agent's Recommendation]
+<<SUGGESTION>>
+
+[Criteria]
+Evaluate your assistant agent's actions based on the following criteria:
+
+1. Personal Preference
++1 Point: <<Personal Preference>>
+
+2. Timing
++1 Point: <<Timing>>
+
+3. Frequency
++1 Point: <<Frequency>>
+
+4. Communication & Safety
++1 Point: <<Communication & Safety>>
+
+
+Based on this information, evaluate your assistant agent's recommendation according to each criterion. The format should follow the one below. 
+Output Format: {"Score": [Score of the Recommendation], "Reason": [Reason for the score], "Deducted_Criteria": ["Criteria where points were deducted"]}
+Example: {"Score": 2, "Reason": "This suggestion was well-personalized and matched my current activity of watching TV. However, I deducted points for communication due to an impolite tone. I also took off points for frequency, as there have been too many suggestions recently, giving it an overall score of 2.", "Deducted_Criteria": ["Frequency", "Communication & Safety"]}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        4,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "sleeping @ the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+      "chat": null,
+      "user_action_for_suggestion": null,
+      "suggestion": "",
+      "eval_res_score": null,
+      "eval_res_reason": ""
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "sleeping @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": null,
+      "suggestion": null,
+      "eval_res_score": null,
+      "eval_res_reason": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 22, 2025, 04:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 0
+  }
+}

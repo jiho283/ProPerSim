@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        15
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "practicing meditation for 15 minutes as part of his morning routine (deepening his meditation, letting thoughts pass without attachment) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "practicing meditation for 15 minutes as part of his morning routine (continuing to meditate, maintaining focus on his breath)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 07:20:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "working on his freelance writing projects focused on sustainability and mindfulness in his home office.  \n (drafting new content for his writing project) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "drafting new content for his writing project",
+      "suggestion": "",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation to review and organize research materials aligns with John's preference for structured suggestions during focused writing projects. It's thoughtful, practical, and contributes to a more organized and efficient workflow, which is consistent with his conscientious nature and desire for a clear structure in his writing. The recommendation is given during John's deep writing session, which is a time he prefers to keep free from external inputs to protect his concentration. The recommendation also overlaps with a series of similar recommendations in a short period, which can be disruptive to his workflow. The recommendation is gentle, respectful, and aligns with John's principles of sustainability and mindfulness. Reviewing and organizing research is a useful suggestion for his writing process. The recommendation is helpful, but it is being provided at a much higher frequency than preferred. There have been four similar recommendations in the last 10 minutes, all related to organizing research materials. This level of prompting is excessive and disrupts focus."
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        5
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "drafting new content for his writing project",
+      "suggestion": "\"Take a few minutes to review your previous outlines and research materials to ensure that your new content aligns with your overall project structure and sustainability themes.\"",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation to review outlines and research materials aligns well with John's focused writing project and his preference for structured suggestions during focused activities. It also connects directly to the themes of sustainability and mindfulness, reflecting his interests and values. I am currently in a deep writing session, and the timing preferences indicate that I prefer to avoid recommendations during this time to protect my concentration. The recommendation is also very similar to previous ones, suggesting potential repetitiveness. The recommendation aligns with John's current activity of drafting content, reinforces sustainability themes, and promotes a well-organized approach. The tone is gentle and respectful, fitting the preferred communication style. There have been four recommendations in the past ten minutes, which is too frequent. Therefore, even if the content is relevant, the recommendation is being made at a higher frequency than preferred."
+    }
+  },
+  "meta": {
+    "curr_time": "February 26, 2025, 15:35:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 206
+  }
+}

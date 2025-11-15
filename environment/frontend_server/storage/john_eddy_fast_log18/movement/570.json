@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        4,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing for bed by setting his alarm for the next day, ensuring his bedroom is tidy, and turning off all lights before getting into bed for a restful night's sleep (turning off all lights in the bedroom) @ the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+      "chat": null,
+      "user_action_for_suggestion": "preparing for bed by setting his alarm for the next day, ensuring his bedroom is tidy, and turning off all lights before getting into bed for a restful night's sleep (changing into his pajamas)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        13
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 23:45:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

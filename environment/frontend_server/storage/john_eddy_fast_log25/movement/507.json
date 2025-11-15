@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "wrapping up the structured game night with his close friends, ensuring everything is tidied up and thanking his guests for coming before they leave (collecting empty glasses and plates) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "wrapping up the structured game night with his close friends, ensuring everything is tidied up and thanking his guests for coming before they leave (collecting empty glasses and plates)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "wrapping up the structured game night with his close friends, ensuring everything is tidied up and thanking his guests for coming before they leave (collecting empty glasses and plates)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 21:07:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 45
+  }
+}

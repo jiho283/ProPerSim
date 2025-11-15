@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        5,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "continuing to work on his illustrations in his home studio, focusing on adding details and color to his sketches (adding fine details to the first sketch) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "continuing to work on his illustrations in his home studio, focusing on adding details and color to his sketches (adding fine details to the first sketch)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "continuing to work on his illustrations in his home studio, focusing on adding details and color to his sketches (adding fine details to the first sketch)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 11:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 40
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        1,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "engaging in a focused writing session, working on drafting new sections of his investigative articles, ensuring his narratives are compelling and well-supported by evidence (organizing his notes and research materials) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "unwinding by watching a documentary on geopolitical conflicts, which aligns with his interests and provides inspiration for his investigative work (organizing his notes and thoughts)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 20:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

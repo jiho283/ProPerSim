@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "reviewing and organizing his teaching materials, ensuring that all resources are ready for his upcoming classes (checking for any missing resources or materials needed for his lessons) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "reviewing and organizing his teaching materials, ensuring that all resources are ready for his upcoming classes (checking for any missing resources or materials needed for his lessons)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "reviewing and organizing his teaching materials, ensuring that all resources are ready for his upcoming classes (checking for any missing resources or materials needed for his lessons)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 15:35:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 41
+  }
+}

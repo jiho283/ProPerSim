@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "listening to a philosophical podcast while reorganizing his bookshelves, enjoying the process of creating a more inspiring space (stepping back to admire the new arrangement) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "listening to a philosophical podcast while reorganizing his bookshelves, enjoying the process of creating a more inspiring space (adjusting the arrangement for aesthetic appeal)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 11:50:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking an afternoon nap on the couch, enjoying a peaceful and relaxing break (continuing to nap peacefully) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "taking an afternoon nap on the couch, enjoying a peaceful and relaxing break (continuing to nap peacefully)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "taking an afternoon nap on the couch, enjoying a peaceful and relaxing break (continuing to nap peacefully)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 14:47:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 32
+  }
+}

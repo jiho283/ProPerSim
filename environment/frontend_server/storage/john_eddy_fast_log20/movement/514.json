@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        4,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "reading in bed, enjoying a peaceful end to his day before going to sleep @ the Ville:Lin family's house:Mei and John Lin's bedroom:bed",
+      "chat": null,
+      "user_action_for_suggestion": "reading in bed, enjoying a peaceful end to his day before going to sleep",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        4,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "reading in bed, enjoying a peaceful end to his day before going to sleep",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 21:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 26
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking a walk outside to gather inspiration and clear his mind, observing different architectural styles and natural elements (walking through a park to observe natural elements) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "taking a walk outside to gather inspiration and clear his mind, observing different architectural styles and natural elements (walking through a park to observe natural elements)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "taking a walk outside to gather inspiration and clear his mind, observing different architectural styles and natural elements (walking through a park to observe natural elements)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 15:32:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 40
+  }
+}

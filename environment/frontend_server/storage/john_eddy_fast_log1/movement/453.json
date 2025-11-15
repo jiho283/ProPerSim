@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing a new recipe for dinner, experimenting with different flavors and cuisines to create a unique and delicious meal. He is focused on using fresh ingredients and incorporating elements from various culinary traditions to surprise and delight his taste buds (plating the meal, arranging the food aesthetically) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "user_action_for_suggestion": "preparing a new recipe for dinner, experimenting with different flavors and cuisines to create a unique and delicious meal. He is focused on using fresh ingredients and incorporating elements from various culinary traditions to surprise and delight his taste buds (plating the meal, arranging the food aesthetically)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        4
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "preparing a new recipe for dinner, experimenting with different flavors and cuisines to create a unique and delicious meal. He is focused on using fresh ingredients and incorporating elements from various culinary traditions to surprise and delight his taste buds (plating the meal, arranging the food aesthetically)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:52:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 67
+  }
+}

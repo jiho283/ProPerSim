@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking a short break from work to enjoy a cup of coffee in the garden, using this time to relax and clear his mind before returning to his financial analysis tasks (preparing a cup of coffee) @ the Ville:Lin family's house:kitchen:kitchen sink",
+      "chat": null,
+      "user_action_for_suggestion": "continuing his work as a financial analyst, focusing on analyzing market trends and updating financial models to ensure accuracy in his reports (organizing his workspace for the next task)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 15:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

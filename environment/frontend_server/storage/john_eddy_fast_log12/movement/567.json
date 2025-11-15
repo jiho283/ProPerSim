@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "going to bed, ensuring he gets enough rest to start the next day refreshed and ready for his morning routine (reviewing his planner for tomorrow's tasks) @ the Ville:Lin family's house:Mei and John Lin's bedroom:desk",
+      "chat": null,
+      "user_action_for_suggestion": "going to bed, ensuring he gets enough rest to start the next day refreshed and ready for his morning routine (reviewing his planner for tomorrow's tasks)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "going to bed, ensuring he gets enough rest to start the next day refreshed and ready for his morning routine (reviewing his planner for tomorrow's tasks)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 23:37:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 42
+  }
+}

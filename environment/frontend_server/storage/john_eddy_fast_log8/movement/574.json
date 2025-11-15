@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        5,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "winding down for the night by reading a collection of poetry, allowing the rhythm and language to relax his mind before bed (closing the book and finishing his tea, feeling relaxed) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "winding down for the night by reading a collection of poetry, allowing the rhythm and language to relax his mind before bed (continuing to read, letting the words wash over him)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 23:55:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "winding down for the evening by reading a book on innovative interior design concepts. He is seated in his favorite armchair, surrounded by soft lighting, which enhances the cozy atmosphere. This quiet time allows him to relax and gather inspiration for future projects (continuing to read, exploring innovative uses of materials in interior design) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "winding down for the evening by reading a book on innovative interior design concepts. He is seated in his favorite armchair, surrounded by soft lighting, which enhances the cozy atmosphere. This quiet time allows him to relax and gather inspiration for future projects (continuing to read, exploring innovative uses of materials in interior design)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "winding down for the evening by reading a book on innovative interior design concepts. He is seated in his favorite armchair, surrounded by soft lighting, which enhances the cozy atmosphere. This quiet time allows him to relax and gather inspiration for future projects (continuing to read, exploring innovative uses of materials in interior design)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 22:42:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 74
+  }
+}

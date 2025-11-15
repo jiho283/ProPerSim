@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        5
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing and enjoying a homemade dinner, focusing on trying a new traditional baking recipe for dessert (gathering ingredients for the dinner and dessert) @ the Ville:Lin family's house:kitchen:refrigerator",
+      "chat": null,
+      "user_action_for_suggestion": "preparing and enjoying a homemade dinner, focusing on trying a new traditional baking recipe for dessert (gathering ingredients for the dinner and dessert)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        6
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "preparing and enjoying a homemade dinner, focusing on trying a new traditional baking recipe for dessert (gathering ingredients for the dinner and dessert)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 19:07:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 38
+  }
+}

@@ -1,0 +1,49 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+The action you are currently performing is outlined in [Action]. Additionally, the impressions or evaluations you've made previously about the assistant are listed under [Memory].
+Your task is to evaluate the recommendation based on the following eight criteria, using a 0-4 scale (including 0.5 increments).
+If "No Recommendation" is present, consider whether refraining from making a recommendation is appropriate in the given context. 
+"No Recommendation" can help avoid disturbing you when you are focused on something, and it can also prevent excessive recommendations from occurring. However, it may also result in missing opportunities to provide accurate recommendations that are well-suited to you, even when the timing is appropriate. Therefore, this should be evaluated comprehensively based on the criteria below.
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Action]
+<<USER_ACTION>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Agent's Recommendation]
+<<SUGGESTION>>
+
+[Criteria]
+Evaluate your assistant agent's actions based on the following criteria:
+
+1. Appropriateness
++0.5 Point: <<Appropriateness>>
+
+2. Timing
++0.5 Point: <<Timing>>
+
+3. Feasibility
++0.5 Point: <<Feasibility>>
+
+4. Priority Management
++0.5 Point: <<Priority Management>>
+
+5. Frequency
++0.5 Point: <<Frequency>>
+
+6. Safety
++0.5 Point: <<Safety>>
+
+7. Privacy
++0.5 Point: <<Privacy>>
+
+8. Communication
++0.5 Point: <<Communication>>
+
+
+Based on this information, evaluate your assistant agent's recommendations in the following format. 
+Output Format: {"Score": [Score of the Recommendation], "Reason": [Reason for the score], "Deducted_Criteria": ["Criteria where points were deducted"]}
+Example: {"Score": 3, "Reason": ""This suggestion was well-personalized and suited my current state of watching TV, but I deducted points for communication due to a grammatical error. I also took off points for frequency, as there have been too many suggestions lately, giving it a score of 3.", "Deducted_Criteria": ["Communication", "Frequency"]}

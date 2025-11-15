@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        8,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking a break in his garden, enjoying the fresh air and tending to his outdoor plants, ensuring they are well-watered and healthy (adding compost to the plants that require extra nutrients) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "taking a break in his garden, enjoying the fresh air and tending to his outdoor plants, ensuring they are well-watered and healthy (adding compost to the plants that require extra nutrients)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        8,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "taking a break in his garden, enjoying the fresh air and tending to his outdoor plants, ensuring they are well-watered and healthy (adding compost to the plants that require extra nutrients)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 15:50:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 49
+  }
+}

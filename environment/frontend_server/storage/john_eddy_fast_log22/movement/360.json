@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        1,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "organizing a storage space, ensuring everything is neatly arranged and labeled for easy access (surveying the storage space to assess what needs organizing) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "taking a short afternoon nap to recharge for the rest of the day (stretching and getting out of bed)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        4,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 15:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        1,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "watering the indoor plants for 10 minutes and then enjoying a cup of coffee while reviewing his tasks for the day.   (watering the indoor plants) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "watering the indoor plants for 10 minutes and then enjoying a cup of coffee while reviewing his tasks for the day.   (gathering his watering can and checking the indoor plants)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 08:05:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

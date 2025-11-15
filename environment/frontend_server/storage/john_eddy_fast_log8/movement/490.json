@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        5,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "watching an indie film in his living room, immersing himself in the unique storytelling and cinematography for inspiration (starting the film and watching the opening scenes) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "watching an indie film in his living room, immersing himself in the unique storytelling and cinematography for inspiration (starting the film and watching the opening scenes)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        5
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "watching an indie film in his living room, immersing himself in the unique storytelling and cinematography for inspiration (starting the film and watching the opening scenes)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 20:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 43
+  }
+}

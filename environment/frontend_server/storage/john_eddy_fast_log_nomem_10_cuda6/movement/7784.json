@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "having lunch and taking a short break to recharge.   (enjoying his lunch mindfully, focusing on the flavors and textures) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "enjoying his lunch mindfully, focusing on the flavors and textures",
+      "suggestion": "",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation to take a short stroll after lunch, applying principles from his recent writings, aligns well with John's preference for mindful activities and gentle nudges between tasks. It's thoughtful and reflective, fitting his calm lifestyle and connection to his values. The timing is not ideal; John prefers recommendations in the early morning or late afternoon, not during his lunch break. The recommendation is relevant to John's interest in sustainability, aligns with his daily plan of taking a short break after lunch, and is delivered in a gentle and respectful tone. Numerous recommendations have been made within the last 15 minutes during John's lunch break. Suggesting another activity immediately after he's begun enjoying his lunch, focusing on flavors and textures, feels too intrusive and frequent. This goes against his preference for fewer, more spaced-out recommendations."
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "enjoying his lunch mindfully, focusing on the flavors and textures",
+      "suggestion": "\"Consider pausing briefly after finishing your lunch to jot down any inspiration or new perspectives that arose related to sustainable living, allowing these thoughts to further enrich your upcoming writings.\"",
+      "eval_res_score": "2.0",
+      "eval_res_reason": " The recommendation to jot down inspirations after lunch related to sustainable living aligns well with John's preference for mindful activities during transitions. It encourages reflection and connects his lunch break with his writing, fitting his lifestyle and interests. The recommendation was provided during lunch, which doesn't align with John's preferred times for receiving recommendations (early morning or late afternoon). He prefers to avoid external inputs during focused activities like writing or quiet times like evenings. The recommendation might interrupt his recharging break. The recommendation is aligned with John's personality, interests, and current activity. It's presented in a gentle tone and promotes mindfulness and sustainability, fitting his profile and preferences. The recommendation is relevant, but it's being provided too frequently. There have been four recommendations within the last 8 minutes. This is much more frequent than the preferred frequency of about once every 4 hours."
+    }
+  },
+  "meta": {
+    "curr_time": "February 26, 2025, 12:20:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 223
+  }
+}

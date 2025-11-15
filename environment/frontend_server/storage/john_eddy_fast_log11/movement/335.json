@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "exploring mixed media art techniques in his studio, experimenting with different materials and textures to create new abstract pieces (cleaning up his workspace and organizing materials) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "exploring mixed media art techniques in his studio, experimenting with different materials and textures to create new abstract pieces (cleaning up his workspace and organizing materials)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 13:57:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 41
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        11,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking an evening walk in his garden, reflecting on the day's experiences and enjoying the tranquility of the night (pausing by his favorite spot in the garden to reflect on the day's experiences) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "slowly walking through the garden, observing the plants and flowers",
+      "suggestion": "",
+      "eval_res_score": "0.0",
+      "eval_res_reason": " Evaluation Failed Evaluation Failed Evaluation Failed Evaluation Failed"
+    },
+    "Eddy Lin": {
+      "movement": [
+        11,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "pausing by his favorite spot in the garden to reflect on the day's experiences",
+      "suggestion": "\"Take a moment to record any insightful thoughts or feelings that arose during today's events, especially those connected to your freelancing or personal growth, allowing yourself to fully process and integrate the learnings.\"",
+      "eval_res_score": "1.0",
+      "eval_res_reason": " Evaluation Failed Evaluation Failed The recommendation is in line with John's contemplative nature, encourages reflection, and aligns with his goals of personal growth and processing his experiences, without being intrusive or urgent. Evaluation Failed"
+    }
+  },
+  "meta": {
+    "curr_time": "February 17, 2025, 21:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 102
+  }
+}

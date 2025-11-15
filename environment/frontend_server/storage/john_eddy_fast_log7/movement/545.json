@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        11
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing for bed, ensuring a calm and restful environment by tidying up his space and setting an alarm for the next day (dimming the lights and adjusting the room temperature) @ the Ville:Lin family's house:Mei and John Lin's bedroom:desk",
+      "chat": null,
+      "user_action_for_suggestion": "preparing for bed, ensuring a calm and restful environment by tidying up his space and setting an alarm for the next day (dimming the lights and adjusting the room temperature)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        12
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "preparing for bed, ensuring a calm and restful environment by tidying up his space and setting an alarm for the next day (dimming the lights and adjusting the room temperature)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 22:42:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 47
+  }
+}

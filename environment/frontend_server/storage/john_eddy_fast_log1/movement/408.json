@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        5,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking a creative break by experimenting with new design ideas for his home. He is sketching potential layouts and color schemes, considering how to incorporate his unique furniture pieces into a cohesive and vibrant living space (setting up his sketching materials and finding a comfortable spot) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "engaging in a virtual meeting with a client to discuss the progress of his interior design project, presenting his refined sketches and receiving feedback to ensure alignment with the client's vision (ending the meeting and organizing his notes for future reference)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 17:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

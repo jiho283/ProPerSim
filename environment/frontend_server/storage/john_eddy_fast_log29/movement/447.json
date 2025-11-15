@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        5,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "practicing his home improvement skills by working on a small DIY project, such as fixing a leaky faucet or installing a new shelf in the garage (working on the main task of the project, such as tightening connections or assembling parts) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "practicing his home improvement skills by working on a small DIY project, such as fixing a leaky faucet or installing a new shelf in the garage (working on the main task of the project, such as tightening connections or assembling parts)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:37:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 57
+  }
+}

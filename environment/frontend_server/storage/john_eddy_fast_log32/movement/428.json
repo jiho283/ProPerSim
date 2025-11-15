@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "wrapping up his workday as a remote IT technician, ensuring all tasks are completed and logging off from his work systems. He then takes a few minutes to unwind and transition from work mode to personal time (taking a few minutes to unwind and transition from work mode to personal time) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "wrapping up his workday as a remote IT technician, ensuring all tasks are completed and logging off from his work systems. He then takes a few minutes to unwind and transition from work mode to personal time (updating his task list for the next day)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 17:50:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

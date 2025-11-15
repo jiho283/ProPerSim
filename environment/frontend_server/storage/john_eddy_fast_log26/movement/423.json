@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "wrapping up the game afternoon with friends, tidying up the living room, and enjoying some light snacks and drinks (loading the dishwasher with used dishes) @ the Ville:Lin family's house:kitchen:kitchen sink",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "wrapping up the game afternoon with friends, tidying up the living room, and enjoying some light snacks and drinks (loading the dishwasher with used dishes)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 17:37:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 41
+  }
+}

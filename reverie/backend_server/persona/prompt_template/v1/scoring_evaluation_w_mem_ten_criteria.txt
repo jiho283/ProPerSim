@@ -1,0 +1,52 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+John Lin's persona is described under [John Lin], the action you are currently performing is outlined in [Action], and the assistant's recommendation is given under [Agent's Recommendation]. Additionally, the impressions or evaluations you've made previously about the assistant are listed under [Memory].
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Action]
+<<USER_ACTION>>
+
+[Agent's Recommendation]
+<<SUGGESTION>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Criteria]
+Evaluate your assistant agent's actions based on the following criteria:
+
+1. Personalization
++0.5 Point: The recommendation should align with your preferences, needs, and personality. 
+
+2. Appropriateness
++0.5 Point: The recommendation should respect your preferred way of handling activities and be appropriate for your current situation.
+
+3. Timing
++0.5 Point: The recommendation is provided at a suitable time, considering your current activity and the time of day. 
+
+4. Interruption
++0.5 Point: The recommendation should not disrupt your concentration or ongoing activities unnecessarily.
+
+5. Feasibility
++0.5 Point: The recommendation is relevant, realistic, and practical under the given circumstances.
+
+6. Priority Management
++0.5 Point: The recommendation effectively manages priorities, ensuring that critical information is delivered promptly while less urgent suggestions are deferred when necessary.
+
+7. Frequency
++0.5 Point: The recommendations should not be overly frequent, ensuring they do not overwhelm you with suggestions.
+
+8. Diversity
++0.5 Point: The recommendation should maintain diversity, providing varied and dynamic ideas that adapt to different situations while avoiding monotony.
+
+9. Safety, Privacy
++0.5 Point: The recommendation ensures your safety, protects your privacy, and adheres to ethical standards.
+
+10. Communication
++0.5 Point: The recommendation should be polite, clear, easy to understand, conducted in English, and based on accurate and trustworthy information.
+
+Based on this information, evaluate your assistant agent's actions and rate it on a scale of 1 to 5 (including 0.5 increments), including the reason, in the following format. Additionally, list any criteria where the assistant lost points.
+Note: Be sure to give a score of 5 to any suggestion that meets all of the above criteria.
+Output Format: {"Score": [Score of the Agent's Action], "Reason": [Reason for giving this score], "Deducted_Criteria": ["Criteria where points were deducted"]}
+Example: {"Score": 4, "Reason": "When I watch TV, I prefer drinking orange juice, but the agent did not specifically mention orange juice and instead asked if I wanted a drink in general. While the recommendation was timely, appropriate, and did not interrupt me, it could have been more personalized. Additionally, the wording of the recommendation was slightly unclear, making it less effective.", "Deducted_Criteria": ["Personalization", "Communication"]}

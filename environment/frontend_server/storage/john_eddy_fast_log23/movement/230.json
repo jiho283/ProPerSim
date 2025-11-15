@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "waking up and completing his morning routine, which includes freshening up and having a quick snack to start the day.   (heading to the kitchen) @ the Ville:Lin family's house:kitchen:kitchen sink",
+      "chat": null,
+      "user_action_for_suggestion": "waking up and completing his morning routine, which includes freshening up and having a quick snack to start the day.   (changing into comfortable clothes)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        10,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 09:35:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

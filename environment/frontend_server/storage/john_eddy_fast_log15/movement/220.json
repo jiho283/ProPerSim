@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "rearranging and redecorating his living room, focusing on creating a more eclectic and sustainable space (taking measurements of the room and furniture) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "rearranging and redecorating his living room, focusing on creating a more eclectic and sustainable space (taking measurements of the room and furniture)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "rearranging and redecorating his living room, focusing on creating a more eclectic and sustainable space (taking measurements of the room and furniture)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 09:10:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 39
+  }
+}

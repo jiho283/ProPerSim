@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking a moment to review and organize his art supplies, ensuring everything is in order for his next creative session. He is also tidying up his workspace to maintain a clutter-free environment that fosters creativity (organizing his brushes by size and type) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "taking a moment to review and organize his art supplies, ensuring everything is in order for his next creative session. He is also tidying up his workspace to maintain a clutter-free environment that fosters creativity (sorting through his paints, checking for any that need replacing)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 17:15:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

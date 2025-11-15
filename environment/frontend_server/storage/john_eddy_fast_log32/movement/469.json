@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        3,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "spending time in his garden, tending to his plants and enjoying the peaceful outdoor environment. He takes this time to relax and appreciate the tranquility of his home setting (applying fertilizer to the plants that require it) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        3,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "spending time in his garden, tending to his plants and enjoying the peaceful outdoor environment. He takes this time to relax and appreciate the tranquility of his home setting (applying fertilizer to the plants that require it)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 19:32:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 55
+  }
+}

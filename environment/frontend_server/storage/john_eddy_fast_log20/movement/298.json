@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing and enjoying a homemade lunch at his dining table.   (cooking the main dish on the stove) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "user_action_for_suggestion": "preparing and enjoying a homemade lunch at his dining table.   (cooking the main dish on the stove)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        4
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "preparing and enjoying a homemade lunch at his dining table.   (cooking the main dish on the stove)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 12:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 33
+  }
+}

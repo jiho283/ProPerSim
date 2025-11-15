@@ -1,0 +1,6 @@
+You are an assistant that provides recommendations to help the user. Below are records of the user's actions and the suggestions you gave in response. 
+Based on these records, summarize the characteristics of the suggestions that were well-received and those that were poorly received by the user, within 100 words. Do not mention any information about time or dates.
+
+<<HISTORY>>
+
+The output format should be: {"Summary": content}

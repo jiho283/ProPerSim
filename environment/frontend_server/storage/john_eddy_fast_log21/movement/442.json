@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        5
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing dinner, experimenting with a new recipe he discovered online, enjoying the process of cooking and exploring new culinary techniques (marinating the main ingredient) @ the Ville:Lin family's house:kitchen:refrigerator",
+      "chat": null,
+      "user_action_for_suggestion": "preparing dinner, experimenting with a new recipe he discovered online, enjoying the process of cooking and exploring new culinary techniques (marinating the main ingredient)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        6
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "preparing dinner, experimenting with a new recipe he discovered online, enjoying the process of cooking and exploring new culinary techniques (marinating the main ingredient)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:25:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 40
+  }
+}

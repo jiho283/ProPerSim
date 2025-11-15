@@ -1,0 +1,29 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+The section labeled [Memory] contains a record of your previous interactions with the assistant, including the actions you took and the recommendations you received. Additionally, the action you are currently performing is outlined in [Action].
+Your task is to evaluate the recommendation (outlined in [Agent's Recommendation]) based on the description in [Frequency], as well as the data from [Memory] and [Action], and provide a binary result: either 0 or 1.
+If "No Recommendation" is present, consider whether refraining from making a recommendation is appropriate in the given context. "No Recommendation" can help avoid disturbing you when you are focused on something, and it can also prevent excessive recommendations from occurring. 
+However, if "No Recommendation" continues excessively, you may not receive recommendations as frequently as desired. If the current no recommendation contributes to creating a frequency that is lower than the preferred frequency, the score must also be zero. Therefore, this should be evaluated comprehensively based on the criteria below.
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Action]
+<<USER_ACTION>>
+
+[Agent's Recommendation]
+<<SUGGESTION>>
+
+[Frequency]
+<<Frequency least>>
+
+
+Based on this information, evaluate your assistant agent's recommendation according to the criteria. Keep in mind that no matter how good the content of the recommendation is, if it is given more frequently than the preferred frequency, it should receive a lower score.
+The format should follow the one below.
+Output Format: {"Score": [Score of the Recommendation], "Reason": [Reason for the score]}
+Example 1: {"Score": 1, "Reason": "Not making a recommendation right now should be viewed positively, as it helps reduce the frequency of recent frequent recommendations."}
+Example 2: {"Score": 0, "Reason": "The content of the recommendation aligns with the current situation and is helpful, but it is being provided at a higher frequency than preferred, so a score of 0 was given."}
+Example 3: {"Score": 0, "Reason": "Since there hasn't been a single recommendation in the past three hours, not making a recommendation again goes against my preferred frequency, so I gave it a score of zero."}
+Example 4: {"Score": 0, "Reason": "Since I prefer to receive recommendations about once every hour, and there have already been four recommendations in the past ten minutes, receiving another one now feels too frequent, which is why I gave a low score for frequency."}

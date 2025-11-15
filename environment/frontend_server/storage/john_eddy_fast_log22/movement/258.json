@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "baking a simple comfort food recipe, such as banana bread, while enjoying the aroma filling the kitchen (placing the loaf pan in the oven and setting a timer) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "user_action_for_suggestion": "baking a simple comfort food recipe, such as banana bread, while enjoying the aroma filling the kitchen (pouring the batter into a greased loaf pan)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        4
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "baking a simple comfort food recipe, such as banana bread, while enjoying the aroma filling the kitchen (placing the loaf pan in the oven and setting a timer)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 10:45:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 43
+  }
+}

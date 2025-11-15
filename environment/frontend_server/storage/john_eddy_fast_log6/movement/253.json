@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "rearranging or redecorating a small section of the house for 45 minutes (moving furniture and decor items to try out new arrangements) @ the Ville:Lin family's house:common room:shelf",
+      "chat": null,
+      "user_action_for_suggestion": "rearranging or redecorating a small section of the house for 45 minutes (moving furniture and decor items to try out new arrangements)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "rearranging or redecorating a small section of the house for 45 minutes (moving furniture and decor items to try out new arrangements)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 10:32:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 39
+  }
+}

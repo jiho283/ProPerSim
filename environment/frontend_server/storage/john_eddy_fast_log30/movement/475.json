@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "relaxing in his living room, enjoying the ambiance created by his earlier furniture arrangement. He is reflecting on the day's creative accomplishments while sipping a glass of wine and listening to soft instrumental music (taking a few moments to simply enjoy the music and ambiance) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "relaxing in his living room, enjoying the ambiance created by his earlier furniture arrangement. He is reflecting on the day's creative accomplishments while sipping a glass of wine and listening to soft instrumental music (taking a few moments to simply enjoy the music and ambiance)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "relaxing in his living room, enjoying the ambiance created by his earlier furniture arrangement. He is reflecting on the day's creative accomplishments while sipping a glass of wine and listening to soft instrumental music (taking a few moments to simply enjoy the music and ambiance)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 19:47:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 62
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        5
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing lunch, focusing on making a light and healthy meal, and setting the table for a peaceful dining experience (gathering ingredients from the pantry and fridge) @ the Ville:Lin family's house:kitchen:refrigerator",
+      "chat": null,
+      "user_action_for_suggestion": "preparing lunch, focusing on making a light and healthy meal, and setting the table for a peaceful dining experience (gathering ingredients from the pantry and fridge)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        6
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "preparing lunch, focusing on making a light and healthy meal, and setting the table for a peaceful dining experience (gathering ingredients from the pantry and fridge)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 11:10:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 42
+  }
+}

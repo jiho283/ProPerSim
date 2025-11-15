@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "enjoying a quiet morning by reading a book in his living room (reading the first chapter of his book) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "",
+      "eval_res_score": "0.0",
+      "eval_res_reason": " The recommendation to take deep breaths while walking and notice the sensation of feet touching the ground, connecting the outdoor walk to previous reflective mornings spent reading and journaling is coming while I'm reading a book in my living room. This disrupts my reading and the recommendation is more suited for when I'm actually walking, not while I'm preparing to read a book. The recommendation is being given while I am reading and I do not prefer to receive them during deep writing sessions or evening quiet time, as I like to keep those spaces free from external inputs to protect my concentration and sense of calm. The recommendation is for walking and breathing, while I'm reading a book in my living room. The suggestion doesn't fit my current activity, and it's starting to repeat previous suggestions without considering my actions. There have been four recommendations in the last 15 minutes. This is far more frequent than the preferred rate of once every 4 hours, ideally no more than three times a day. Even though the recommendation is relevant and consistent with John's interests and activities, the frequency is too high."
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "reading the first chapter of his book",
+      "suggestion": "\"As you read, take a moment to appreciate the morning light streaming through the window and reflect on how it relates to the themes presented in Chapter 1 of your book.\"",
+      "eval_res_score": "3.0",
+      "eval_res_reason": " The recommendation to appreciate the morning light and relate it to the book's themes aligns with John Lin's reflective lifestyle and his enjoyment of reading. It encourages mindfulness without being intrusive. The recommendation was delivered in the early morning while I was reading, which aligns with my preferred timing for receiving suggestions. The suggestion to appreciate the morning light and relate it to the book's themes is also relevant and thoughtful. The recommendation is gentle and respectful, aligns with John's contemplative nature, and encourages him to connect his reading with his environment, fitting his principles of mindfulness and sustainability. There have been four recommendations in the past 15 minutes. This is significantly higher than the preferred frequency of once every 4 hours, so a score of 0 was given."
+    }
+  },
+  "meta": {
+    "curr_time": "February 17, 2025, 08:17:30",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 198
+  }
+}

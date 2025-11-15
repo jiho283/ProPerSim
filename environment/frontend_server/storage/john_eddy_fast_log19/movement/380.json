@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "dedicating time to a DIY home improvement project, focusing on enhancing the energy efficiency of his home by installing or upgrading insulation materials (installing the insulation materials) @ the Ville:Lin family's house:kitchen:kitchen sink",
+      "chat": null,
+      "user_action_for_suggestion": "dedicating time to a DIY home improvement project, focusing on enhancing the energy efficiency of his home by installing or upgrading insulation materials (installing the insulation materials)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "dedicating time to a DIY home improvement project, focusing on enhancing the energy efficiency of his home by installing or upgrading insulation materials (installing the insulation materials)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 15:50:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 43
+  }
+}

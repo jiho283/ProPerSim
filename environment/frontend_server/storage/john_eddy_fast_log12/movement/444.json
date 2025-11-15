@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing a healthy dinner, focusing on a balanced meal to maintain his energy levels and support his fitness goals (preheating the oven or stove) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "user_action_for_suggestion": "preparing a healthy dinner, focusing on a balanced meal to maintain his energy levels and support his fitness goals (marinating the protein)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        7,
+        6
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:30:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

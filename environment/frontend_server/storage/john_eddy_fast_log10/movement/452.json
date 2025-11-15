@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        10,
+        15
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "taking an evening walk to unwind and reflect, enjoying the tranquility of nature and gathering inspiration for his writing (jotting down thoughts and inspirations in his notebook) @ the Ville:Lin family's house:garden:house garden",
+      "chat": null,
+      "user_action_for_suggestion": "taking an evening walk to unwind and reflect, enjoying the tranquility of nature and gathering inspiration for his writing (finding a quiet spot to sit and reflect)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        11,
+        17
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 18:50:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

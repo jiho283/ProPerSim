@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        2
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "enjoying a relaxing evening in the garden, sipping on a warm cup of tea and reflecting on the day's events while listening to calming music (preparing a warm cup of tea) @ the Ville:Lin family's house:kitchen:kitchen sink",
+      "chat": null,
+      "user_action_for_suggestion": "scrolling through social media and chatting with friends online, enjoying some light-hearted interactions and staying connected with his social circle (closing his social media apps)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 21:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

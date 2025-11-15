@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        11,
+        4
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "enjoying a warm bath, relaxing and unwinding from the day (gathering bath essentials and setting the water temperature) @ the Ville:Lin family's house:bathroom:shower",
+      "chat": null,
+      "user_action_for_suggestion": "enjoying a quiet evening by watching an old movie from his collection (pausing the movie to reflect on a favorite scene)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        5,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 19:00:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 12
+  }
+}

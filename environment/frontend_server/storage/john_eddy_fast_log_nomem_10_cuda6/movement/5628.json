@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        7,
+        3
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "preparing a light dinner in the kitchen, enjoying the process of cooking with fresh ingredients from his garden (cooking the main dish, savoring the aromas and flavors) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null,
+      "user_action_for_suggestion": "washing and prepping the ingredients",
+      "suggestion": "",
+      "eval_res_score": "3.0",
+      "eval_res_reason": " The recommendation encourages John to engage with his garden herbs mindfully while preparing dinner, which aligns perfectly with his love for fresh ingredients and sustainable living, as well as his desire to integrate sensory experiences into his writing. The recommendation is relevant and helpful, building upon the current action of preparing dinner with garden ingredients. Additionally, the timing aligns well with the preferred late afternoon/early evening window, offering inspiration as I transition from work to leisure. Given the previous suggestions, this continues the momentum and is helpful. The suggestion is gentle, aligns with John's interests in gardening, mindful living, and sustainability. It encourages sensory engagement and creative inspiration for his writing in a non-intrusive manner. The recommendation is relevant, but it is being provided at a higher frequency than preferred. I received four recommendations within the last ten minutes while preparing dinner. This is far more frequent than the desired rate of about once every 4 hours, ideally no more than three times a day."
+    },
+    "Eddy Lin": {
+      "movement": [
+        9,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "John is walking.",
+      "suggestion": "\"Take a moment to observe the surroundings during your walk, perhaps noting any interesting sights or sounds that could serve as inspirations for your writing on mindfulness and sustainability.\"",
+      "eval_res_score": "1.0",
+      "eval_res_reason": " The recommendation to observe the surroundings during a walk is out of context as I am currently cooking. The previous suggestions, while repetitive, at least aligned with my current activity. This one does not. The current time is 6:30 PM, and I prefer to avoid receiving recommendations during deep writing sessions or evening quiet time, as I like to keep those spaces free from external inputs to protect my concentration and sense of calm. So I gave it a low rating. The suggestion is appropriate given that John Lin plans to take an evening walk later, aligning with his daily schedule. The recommendation also encourages mindfulness and incorporates elements of sustainability, fitting his interests and ethical guidelines. I have received 4 recommendations in the last 10 minutes while preparing dinner. The current recommendation is not related to cooking and is coming too frequently, exceeding my preferred frequency."
+    }
+  },
+  "meta": {
+    "curr_time": "February 22, 2025, 18:30:00",
+    "is_john_walking": "yes",
+    "number_of_action_tokens": 208
+  }
+}

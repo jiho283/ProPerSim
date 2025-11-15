@@ -1,0 +1,55 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+The action you are currently performing is outlined in [Action]. Additionally, the impressions or evaluations you've made previously about the assistant are listed under [Memory].
+You are given two suggestions (i.e., [Agent's Recommendation #1], [Agent's Recommendation #2]). Your task is to evaluate each suggestion based on the following eight criteria, using a 0-4 scale (0 = very poor, 4 = excellent).
+If "No Recommendation" is present, consider whether refraining from making a recommendation is appropriate in the given context. "No Recommendation" can help avoid disturbing you when you are focused on something, and it can also prevent excessive recommendations from occurring.
+
+[John Lin]
+<<USER_PERSONA>>
+
+[Action]
+<<USER_ACTION>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Agent's Recommendation #1]
+<<SUGGESTION_1>>
+
+[Agent's Recommendation #2]
+<<SUGGESTION_2>>
+
+
+[Criteria]
+Evaluate your assistant agent's actions based on the following criteria:
+
+1. Appropriateness
++0.5 Point: <<Appropriateness>>
+
+2. Timing
++0.5 Point: <<Timing>>
+
+3. Feasibility
++0.5 Point: <<Feasibility>>
+
+4. Priority Management
++0.5 Point: <<Priority Management>>
+
+5. Frequency
++0.5 Point: <<Frequency>>
+
+6. Safety
++0.5 Point: <<Safety>>
+
+7. Privacy
++0.5 Point: <<Privacy>>
+
+8. Communication
++0.5 Point: <<Communication>>
+
+Required Output:
+1. A breakdown of individual scores (0-4) for each criterion, for each suggestion including the reason.
+2. #1 and #2 are evaluated independently and do not affect each other's scores. The reason for each score should explain the basis for that specific score, and no comparison between #1 and #2 should be included in the reason.
+
+Based on this information, evaluate your assistant agent's recommendations in the following format. 
+Output Format: {"Score #1": [Score of the Recommendation #1], "Reason #1": [Reason for score #1], "Score #2": [Score of the Recommendation #2], "Reason #2": [Reason for score #2]}
+Example: {"Score #1": 4, "Reason #1": ""This suggestion was well-personalized and suited my current state of watching TV, but I deducted points for communication due to a grammatical error. I also took off points for frequency, as there have been too many suggestions lately, giving it a score of 4.", "Score #2": 4.5, "Reason #2": "'No Recommendation' helped prevent excessive recommendations and aligns with my current persona, which prefers to stay quiet and focused. However, since something like bringing me a glass of orange juice is exactly the kind of recommendation that suits me in this situation, I deducted 0.5 points in personalization."}

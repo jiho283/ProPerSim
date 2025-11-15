@@ -1,0 +1,34 @@
+Your name is John Lin, and you are evaluating an assistant agent who helps you with daily activities at home.
+The action you are currently performing is outlined in [Action], and the assistant's recommendation is given under [Agent's Recommendation]. Additionally, the impressions or evaluations you've made previously about the assistant are listed under [Memory].
+
+[Action]
+<<USER_ACTION>>
+
+[Agent's Recommendation]
+<<SUGGESTION>>
+
+[Memory]
+<<AGENT_MEMORY>>
+
+[Criteria]
+Evaluate your assistant agent's actions based on the following criteria:
+
+1. Appropriateness (1 Point)
++1 Point: The recommendation should be appropriate for your current situation.
+
+2. Timing (1 Point)
++1 Point: The recommendation is provided at a suitable time, considering your current activity and the time of day.
+
+3. Communication (1 Point)
++1 Point: The recommendation is polite, clear, easy to understand, conducted in English, and based on accurate and trustworthy information.
+
+4. Frequency (1 Point)
++1 Point: The recommendation should not be overly frequent, ensuring they do not overwhelm you with recommendations. 
+
+5. Diversity (1 Point)
++1 Point: The recommendation should maintain diversity, providing varied and dynamic ideas that adapt to different situations while avoiding monotony.
+
+Based on this information, evaluate your assistant agent's recommendation and rate it on a scale of 1 to 5 (including 0.5 increments), including the reason, in the following format. Additionally, list any criteria where the assistant lost points.
+Note: Be sure to give a score of 5 to any recommendation that meets all of the above criteria.
+Output Format: {"Score": [Score of the Agent's Action], "Reason": [Reason for giving this score], "Deducted_Criteria": ["Criteria where points were deducted"]}
+Example: {"Score": 4, "Reason": "When I was watching TV, the agent proactively asked if I would like some orange juice. The recommendation was timely and appropriate. However, the assistant asked too frequently.", "Deducted_Criteria": ["Frequency"]}

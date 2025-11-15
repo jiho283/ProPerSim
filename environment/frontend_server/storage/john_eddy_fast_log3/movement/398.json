@@ -1,0 +1,35 @@
+{
+  "persona": {
+    "John Lin": {
+      "movement": [
+        2,
+        6
+      ],
+      "pronunciatio": "\ud83d\ude42",
+      "description": "conducting in-depth research for his investigative journalism work, focusing on political corruption and corporate ethics, and compiling data for his upcoming articles (compiling notes and insights from his research) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null,
+      "user_action_for_suggestion": "conducting in-depth research for his investigative journalism work, focusing on political corruption and corporate ethics, and compiling data for his upcoming articles (compiling notes and insights from his research)",
+      "suggestion": "",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    },
+    "Eddy Lin": {
+      "movement": [
+        2,
+        7
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "suggestion @ <persona> John Lin",
+      "chat": null,
+      "user_action_for_suggestion": "conducting in-depth research for his investigative journalism work, focusing on political corruption and corporate ethics, and compiling data for his upcoming articles (compiling notes and insights from his research)",
+      "suggestion": "Abstention",
+      "eval_res_score": "abstention",
+      "eval_res_reason": "abstention"
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2024, 16:35:00",
+    "is_john_walking": "no",
+    "number_of_action_tokens": 46
+  }
+}
