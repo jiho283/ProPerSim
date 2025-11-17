@@ -37,7 +37,6 @@ def llm_model_upload_vllm(train_mode: str, cache_dir: str = "[CACHE_DIR]", max_l
             tokenizer.pad_token = tokenizer.eos_token
             # model.config.pad_token_id = tokenizer.pad_token_id
 
-        # 모델의 pad_token_id 설정
         # model.config.pad_token_id = tokenizer.pad_token_id
         # Encode input text
         return model, tokenizer
@@ -80,7 +79,6 @@ def llm_model_upload(train_mode: str, cache_dir: str = "[CACHE_DIR]", max_len: i
             tokenizer.pad_token = tokenizer.eos_token
             model.config.pad_token_id = tokenizer.pad_token_id
 
-        # 모델의 pad_token_id 설정
         # Encode input text
         return model, model, tokenizer
 
