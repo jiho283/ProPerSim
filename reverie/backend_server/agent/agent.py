@@ -29,7 +29,7 @@ from agent.cognitive_modules.converse import *
 from agent.cognitive_modules.suggestion import *
 
 class Agent: 
-  def __init__(self, name, suggestion_model_name=None, folder_mem_saved=False, client=None):
+  def __init__(self, name, suggestion_model_name=None, folder_mem_saved=False, client=None, hf_cache_dir="./cache"):
     # PERSONA BASE STATE 
     # <name> is the full name of the agent. This is a unique identifier for
     # the agent within Reverie. 
@@ -72,6 +72,7 @@ class Agent:
     self.memory_hourly = []
     self.events_hourly = []
     self.memory_4hourly = deque(maxlen=1)
+    self.hf_cache_dir = hf_cache_dir
 
 
 
@@ -384,12 +385,12 @@ class Agent:
 
     if 'llama' in self.suggestion_model_name or 'mixtral' in self.suggestion_model_name:
       if self.suggestion_model == None:
-        self.suggestion_model = llm_model_upload(train_mode, "[CACHE_DIR]", 2048+256)
+        self.suggestion_model = llm_model_upload(train_mode, self.hf_cache_dir, 2048+256)
       else:
         if 'wo_train' not in train_mode:
           if 'lora' not in self.suggestion_model_name:
             model, base_model, tokenizer = self.suggestion_model
-            self.suggestion_model = peft_lm_model_upload(base_model, tokenizer, train_mode, "[CACHE_DIR]", 2048+256)
+            self.suggestion_model = peft_lm_model_upload(base_model, tokenizer, train_mode, self.hf_cache_dir, 2048+256)
             self.suggestion_model_name = self.suggestion_model_name + '_lora'
 
           model, base_model, tokenizer = self.suggestion_model
@@ -453,11 +454,11 @@ class Agent:
             self.total_preference_records['score'] += self.preference_records['score']
 
           if 'DPO' in train_mode:
-            self.suggestion_model = DPO_train(self.total_evaluation_records, combined_preference_data, model, base_model, train_mode, tokenizer, "[CACHE_DIR]", 2048+256)
+            self.suggestion_model = DPO_train(self.total_evaluation_records, combined_preference_data, model, base_model, train_mode, tokenizer, self.hf_cache_dir, 2048+256)
           elif 'KTO' in train_mode:
-            self.suggestion_model = KTO_train(self.total_evaluation_records, combined_preference_data, model, base_model, train_mode, tokenizer, "[CACHE_DIR]", 2048+256)
+            self.suggestion_model = KTO_train(self.total_evaluation_records, combined_preference_data, model, base_model, train_mode, tokenizer, self.hf_cache_dir, 2048+256)
           elif 'SFT' in train_mode:
-            self.suggestion_model = SFT_train(self.total_evaluation_records, combined_preference_data, model, base_model, train_mode, tokenizer, "[CACHE_DIR]", 2048+256)
+            self.suggestion_model = SFT_train(self.total_evaluation_records, combined_preference_data, model, base_model, train_mode, tokenizer, self.hf_cache_dir, 2048+256)
         
         # self.total_preference_records['chosen'] += self.preference_records['chosen']
         # self.total_preference_records['rejected'] += self.preference_records['rejected']

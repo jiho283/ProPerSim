@@ -126,7 +126,7 @@ class ReverieServer:
       p_x = init_env[persona_name]["x"]
       p_y = init_env[persona_name]["y"]
       if 'Eddy Lin' == persona_name:
-        curr_persona = Agent(persona_name, suggestion_model_name=self.train_mode, folder_mem_saved=persona_folder, client=self.client)
+        curr_persona = Agent(persona_name, suggestion_model_name=self.train_mode, folder_mem_saved=persona_folder, client=self.client, hf_cache_dir=HF_CACHE_DIR)
       else:
         curr_persona = Persona(persona_name, persona_folder, client=self.client, gemini=self.gemini)
 

@@ -12,7 +12,7 @@ from peft import LoraConfig, get_peft_model, PeftModel, prepare_model_for_kbit_t
 from vllm import LLM
 
 
-def llm_model_upload_vllm(train_mode: str, cache_dir: str = "[CACHE_DIR]", max_len: int = 2048+256):
+def llm_model_upload_vllm(train_mode: str, cache_dir: str = "./cache", max_len: int = 2048+256):
     if 'llama-3.1' in train_mode:
         model_name = "unsloth/Meta-Llama-3.1-70B-Instruct-bnb-4bit"
     elif 'llama-3.3' in train_mode:
@@ -46,7 +46,7 @@ def llm_model_upload_vllm(train_mode: str, cache_dir: str = "[CACHE_DIR]", max_l
         return f"An error occurred: {str(e)}"
 
 
-def llm_model_upload(train_mode: str, cache_dir: str = "[CACHE_DIR]", max_len: int = 2048+256):
+def llm_model_upload(train_mode: str, cache_dir: str = "./cache", max_len: int = 2048+256):
     if 'llama-3.1' in train_mode:
         model_name = "unsloth/Meta-Llama-3.1-70B-Instruct-bnb-4bit"
     elif 'llama-3.3' in train_mode:
@@ -87,7 +87,7 @@ def llm_model_upload(train_mode: str, cache_dir: str = "[CACHE_DIR]", max_len: i
         return f"An error occurred: {str(e)}"
 
 
-def peft_lm_model_upload(base_model, tokenizer, train_mode, cache_dir = "[CACHE_DIR]", max_len = 2048+256):
+def peft_lm_model_upload(base_model, tokenizer, train_mode, cache_dir = "./cache", max_len = 2048+256):
     if 'llama-3.1' in train_mode:
         model_name = "unsloth/Meta-Llama-3.1-70B-Instruct-bnb-4bit"
     elif 'llama-3.3' in train_mode:
@@ -112,7 +112,7 @@ def peft_lm_model_upload(base_model, tokenizer, train_mode, cache_dir = "[CACHE_
         import pdb; pdb.set_trace()
         return f"An error occurred: {str(e)}"
 
-def peft_lm_model_upload_vllm(train_mode, cache_dir = "[CACHE_DIR]", max_len = 2048+256):
+def peft_lm_model_upload_vllm(train_mode, cache_dir = "./cache", max_len = 2048+256):
     if 'llama-3.1' in train_mode:
         model_name = "unsloth/Meta-Llama-3.1-70B-Instruct-bnb-4bit"
     elif 'llama-3.3' in train_mode:
