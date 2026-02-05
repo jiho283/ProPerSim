@@ -28,7 +28,7 @@ ORIGIN_PERSONA = "base_the_ville_persona_1"
 SAVE_DIR = "john_eddy_fast_log_test_1"
 
 AGENT_MODEL = "llama-3.3-70b" # {"llama-3.3-70b", "gpt-4o-mini"}
-TRAIN_METHOD = "DPO" # {"DPO", "wo_train"}
+TRAIN_METHOD = "DPO" # {"DPO", "KTO", "wo_train"}
 PERSONA_GIVEN = "" # {"givenpersona", ""}
 REASON_ = "noreason" # {"noreason", "reasonright", "reasonleft"}
 MEMORY_RET = "ret_suggest" # {"wo_mem_suggest", "ret_suggest"}
@@ -43,6 +43,8 @@ REC_REVISION = "recnorev" # {"recrev", "recnorev"}
 MMLU_EVAL = "" # {"mmlueval", ""}
 
 TRAIN_MODE = f"{AGENT_MODEL}_{TRAIN_METHOD}_{PERSONA_GIVEN}_{REASON_}_{MEMORY_RET}_{RANKING}_{AGENT_MEMORY_LEVEL}_{EVALUATOR}_{EVALUATE_SEPERATE}_{FORCE_NOREC_RATIO}_{VISUALIZATION}_{REPLAY_BUFFER}_{REC_REVISION}_{MMLU_EVAL}"
+
+HF_CACHE_DIR = "./"
 
 # Verbose 
 debug = True
