@@ -52,7 +52,12 @@ debug = True
 Replace `<<YOUR OPENAI API KEY>>`, `<<YOUR GEMINI API KEY>>` with your keys, and `<name>` with your name.
  
 ### Step 2. Install requirements.txt
-Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
+1. Create a conda environment using requirements.txt.
+`conda create -n propersim python=3.10`
+
+2. `conda activate propersim`
+
+3. `pip install -r requirements.txt`
 
 ## Running a Simulation (Non-visualization Mode)
 When visualization is disabled, the simulation can run efficiently. If you set VISUALIZATION in utils.py to "novis", the simulation will run without visualization. Navigate to `reverie/backend_server` and run `reverie.py`.
