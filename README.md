@@ -1,5 +1,8 @@
 # ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation
 
+This is the official repository for ProPerSim, accepted at ICLR 2026.  
+You can read the paper here: [link](https://arxiv.org/abs/2509.21730)
+
 ## Setting Up the Environment 
 To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI, Google API keys and download the necessary packages.
 
