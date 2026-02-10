@@ -219,8 +219,8 @@ Specifies the directory where HuggingFace model cache is stored.
 
 2. `conda activate propersim`
 
-3. `pip install torch torchvision torchaudio` (depending on your hardware)
-
+3. `pip install torch torchvision torchaudio psutil` (depending on your hardware)
+  
 4. `pip install flash-attn --no-build-isolation`
 
 5. `pip install -r requirements.txt`
