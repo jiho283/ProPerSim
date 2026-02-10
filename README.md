@@ -50,6 +50,165 @@ HF_CACHE_DIR = "./"
 debug = True
 ```
 Replace `<<YOUR OPENAI API KEY>>`, `<<YOUR GEMINI API KEY>>` with your keys, and `<name>` with your name.
+
+
+### Configuration Description (utils.py)
+
+---
+
+1. `ORIGIN_PERSONA`
+Specifies the persona of the user agent used in the simulation.
+
+- Available personas range from:
+`base_the_ville_persona_1`
+...
+`base_the_ville_persona_32`
+
+2. `SAVE_DIR`
+Defines the directory where simulation results will be stored.
+
+- Storage path: `environment/frontend_server/storage/<SAVE_DIR>`
+
+3. `AGENT_MODEL`
+Specifies the model used as the assistant agent. Options: `llama-3.3-70b`, `gpt-4o-mini`
+
+4. `TRAIN_METHOD`
+Determines the training method applied using simulation results. Options:
+
+| Value | Description |
+|------|-------------|
+| `DPO` | Direct Preference Optimization |
+| `KTO` | Kahneman-Tversky Optimization |
+| `wo_train` | No training |
+
+**Important:**  
+If using an API-based model (e.g., `gpt-4o-mini`), this must be set to `wo_train`.
+
+5. `PERSONA_GIVEN`
+Controls whether the assistant has access to the user's persona.
+
+| Value | Description |
+|------|-------------|
+| `givenpersona` | Assistant knows the user's persona |
+| `""` | Assistant does not know the persona (default, realistic setting) |
+
+6. `REASON_`
+Controls whether and when reasoning is generated.
+
+| Value | Description |
+|------|-------------|
+| `noreason` | No reasoning generated |
+| `reasonleft` | Reason generated before suggestion |
+| `reasonright` | Reason generated after suggestion |
+
+7. `MEMORY_RET`
+Controls memory retrieval.
+
+| Value | Description |
+|------|-------------|
+| `wo_mem_suggest` | No memory retrieval |
+| `ret_suggest` | Memory retrieval enabled |
+
+8. `RANKING`
+Enables ranking functionality.
+
+| Value | Description |
+|------|-------------|
+| `ranking` | Enable ranking |
+| `""` | Disable ranking |
+
+9. `AGENT_MEMORY_LEVEL`
+Defines which components are stored in the assistant’s memory.
+
+**Components:**
+
+| Symbol | Meaning |
+|------|---------|
+| `A` | User Action |
+| `S` | Assistant Suggestion |
+| `C` | Score |
+| `R` | Reason |
+
+**Examples:**
+
+| Value | Memory Includes |
+|------|----------------|
+| `A` | User actions only |
+| `AS` | Actions + Suggestions |
+| `ASC` | Actions + Suggestions + Scores |
+| `ASCR` | Actions + Suggestions + Scores + Reasons |
+
+10. `EVALUATOR`
+Specifies the model used by the user agent to evaluate assistant suggestions.
+
+**Options:**
+- `gpt-4o`
+- `gpt-4o-mini`
+- `gemini-2.0`
+- `gemini-2.5`
+- `o3-mini`
+- `o4-mini`
+
+11. `EVALUATE_SEPERATE`
+Controls evaluation strategy.
+
+| Value | Description |
+|------|-------------|
+| `seperate` | Evaluate each dimension separately and combine |
+| `all` | Evaluate all dimensions at once |
+
+Dimensions may include frequency, timing, etc.
+
+12. `FORCE_NOREC_RATIO`
+Forces a minimum ratio of "no recommendation" samples in daily training data.
+
+| Value | Minimum No-Recommendation Ratio |
+|------|-------------------------------|
+| `norec100` | 100% |
+| `norec70` | 70% |
+| `norec30` | 30% |
+| `norec0` | No constraint |
+
+13. `VISUALIZATION`
+Controls whether visualization is enabled.
+
+| Value | Description |
+|------|-------------|
+| `vis` | Enable visualization |
+| `novis` | Disable visualization |
+
+14. `REPLAY_BUFFER`
+Defines how many samples are used for training.
+
+| Value | Description |
+|------|-------------|
+| `equally200` | Randomly sample 200 data points |
+| `equally400` | Randomly sample 400 data points |
+| `halftoday` | Use half of today's generated data |
+
+15. `REC_REVISION`
+Controls whether user agent revises assistant suggestions.
+
+| Value | Description |
+|------|-------------|
+| `recrev` | User revises suggestions and uses revised version for training |
+| `recnorev` | No revision |
+
+16. `MMLU_EVAL`
+Controls whether MMLU evaluation runs daily.
+
+| Value | Description |
+|------|-------------|
+| `mmlueval` | Enable daily MMLU evaluation |
+| `""` | Disable |
+
+This ensures reasoning ability does not degrade over time.
+
+17. `HF_CACHE_DIR`
+
+Specifies the directory where HuggingFace model cache is stored.
+
+---
  
 ### Step 2. Install requirements.txt
 1. Create a conda environment using requirements.txt.
@@ -99,6 +258,9 @@ You may have noticed that all character sprites in the replay look identical. We
 To start the demo, go to the following address on your browser: `http://localhost:8000/demo/<simulation-name>/<starting-time-step>/<simulation-speed>`. Note that `<simulation-name>` and `<starting-time-step>` denote the same things as mentioned above. `<simulation-speed>` can be set to control the demo speed, where 1 is the slowest, and 5 is the fastest. For instance, visiting the following link will start a pre-simulated example, beginning at time-step 1, with a medium demo speed:  
 [http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/](http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/)
 
+
+## Evaluation
+If you check `reverie/backend/evaluation.ipynb`, you can see the code that calculates the average score received by the assistant each day. 
 
 ## Acknowledgement
 The foundation of this code is based on [Generative Agents](https://github.com/joonspk-research/generative_agents), and we would like to express our gratitude to the authors for providing their code.
