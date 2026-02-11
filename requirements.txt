@@ -1,7 +1,4 @@
 # Core ML Frameworks
-torch==2.7.0
-torchaudio==2.7.0
-torchvision==0.22.0
 triton==3.3.0
 xformers==0.0.30
 
@@ -31,7 +28,6 @@ bitsandbytes==0.46.1
 openai==1.90.0
 google-generativeai==0.4.0
 google-genai==1.11.0
-flash-attn==2.3.4
 
 # Backend & Web (Django/FastAPI)
 django==2.2
@@ -45,7 +41,6 @@ pydantic==2.11.7
 # Utilities
 tqdm==4.67.1
 pyyaml==6.0.2
-psutil==7.0.0
 click==8.1.8
 fsspec==2024.6.1
 jinja2==3.1.6
