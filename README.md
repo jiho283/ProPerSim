@@ -213,17 +213,18 @@ Specifies the directory where HuggingFace model cache is stored.
 
 ---
  
-### Step 2. Install requirements.txt
-1. Create a conda environment using requirements.txt.
-`conda create -n propersim python=3.10`
+### Step 2. Create a conda environment using requirements.txt.
+1. `conda create -n propersim python=3.9.12`
 
 2. `conda activate propersim`
 
 3. `pip install torch torchvision torchaudio psutil` (depending on your hardware)
   
-4. `pip install flash-attn --no-build-isolation`
+4. `pip install flash-attn --no-build-isolation` (depending on your hardware & system)
 
 5. `pip install -r requirements.txt`
+
+**Note**: The version that ran on our server system used Python 3.9.12, torch 2.7.0, torchaudio 2.7.0, torchvision 0.22.0, and flash-attn 2.3.4.
 
 ## Running a Simulation (Non-visualization Mode)
 When visualization is disabled, the simulation can run efficiently. If you set VISUALIZATION in utils.py to "novis", the simulation will run without visualization. Navigate to `reverie/backend_server` and run `reverie.py`.
